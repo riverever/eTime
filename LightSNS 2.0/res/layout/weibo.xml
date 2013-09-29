@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <LinearLayout 
+	    android:id="@+id/weiboitem"
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:orientation="horizontal">
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical">
+    		<ImageView
+        	android:id="@+id/wbicon"
+        	android:layout_width="33dp"
+        	android:layout_height="33dp"
+        	android:src="@drawable/usericon"
+        	android:layout_margin="8dp">
+
+    		</ImageView>
+    	</LinearLayout>
+    	<LinearLayout
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:orientation="vertical"
+  			android:paddingLeft="0dp"
+  			android:paddingRight="5dp"
+  			android:layout_marginTop="5dp"
+  			android:layout_marginBottom="5dp">
+  			<RelativeLayout
+  				android:layout_width="fill_parent"
+  				android:layout_height="wrap_content">
+  					<TextView
+  						android:id="@+id/wbuser"
+  						android:layout_width="wrap_content"
+  						android:layout_height="wrap_content"
+  						android:textColor="#424952"
+  						android:textIsSelectable="true"
+  						android:layout_alignParentLeft="true">
+  					</TextView>
+  					<ImageView
+			    	android:id="@+id/wbsource"
+       				android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+					android:layout_marginRight="5px" 
+        			android:src="@drawable/icon"
+        			android:layout_marginTop='0px'
+        			android:layout_toLeftOf="@+id/wbtime">
+        			</ImageView>
+  					
+  					
+  					<TextView
+  					android:id="@+id/wbtime"
+  					android:layout_width="wrap_content"
+  					android:layout_height="wrap_content"
+  					android:layout_alignParentRight="true"
+  					android:textIsSelectable="true"
+  					android:textColor="#f7a200"
+  					android:textSize="12dp">
+  					</TextView>
+  			</RelativeLayout>
+  			<LinearLayout 
+  				android:layout_width="fill_parent"
+  				android:layout_height="wrap_content"
+  				android:orientation="vertical">
+  				<TextView
+ 					android:id="@+id/wbtext"
+  					android:layout_width="wrap_content"
+  					android:layout_height="wrap_content"
+  					android:textColor="#424952"
+  					android:textSize="13dp"
+  					android:layout_marginTop="4dp">
+  				</TextView>
+  				
+  				<ImageView
+  					android:id="@+id/wbimage"
+  					android:layout_width="fill_parent"
+  					android:layout_height="wrap_content"
+ 					android:layout_marginTop="3dp"
+  					android:layout_marginRight="5dp"
+  					android:scaleType = "center">
+  				</ImageView>
+  					
+  			</LinearLayout>
+  		</LinearLayout>
+  	</LinearLayout> 
+</LinearLayout> 
