@@ -1,5 +1,5 @@
 package lightsns.com;
-
+// test for git branch
 import java.text.SimpleDateFormat;
 import java.util.List;
 
@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
 				if (MainActivity.accessToken.isSessionValid()) {
 					String date = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").format(new java.util.Date(MainActivity.accessToken.getExpiresTime()));
 					Log.e(TAG, "test2");
-					Util.showToast(MainActivity.this, "认证成功 有效期至："+date);
+					Util.showToast(MainActivity.this, "璁よ瘉鎴愬姛 鏈夋晥鏈熻嚦锛�+date);
 					Log.e(TAG, "test3");
 					Intent intent = new Intent();
 					Log.e(TAG, "test4");
