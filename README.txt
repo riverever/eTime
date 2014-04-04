@@ -1,1 +1,1 @@
-This is for the development of eTime, a mobile middleware for transmission management in Multi-Apps.
+Hello, hello, turn your radio on
