@@ -1,2 +1,1 @@
-I added a remote repo
-Add something from the branch baozi
+add something in Jiaozi
