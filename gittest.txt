@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 add somethine in the branch Master
+=======
+I added a remote repo
+Add something from the branch baozi
+>>>>>>> baozi
